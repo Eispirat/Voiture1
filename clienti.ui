@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1109</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>881</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Marque</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Modele</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Type de carburant</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nombre de places</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Transmission</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Prix de location/j</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Image</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>580</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show All Cars</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

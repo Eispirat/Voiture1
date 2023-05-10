@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1202</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="transmission_lbl">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>501</y>
+     <width>68</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Transmission :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="return_3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>660</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Retourner vers le main</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="transmission">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>499</y>
+     <width>129</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="modele">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>378</y>
+     <width>129</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="marque">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>338</y>
+     <width>129</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>330</y>
+     <width>881</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Marque</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Modele</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Type de carburant</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nombre de places</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Transmission</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Prix de location/j</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Image</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="delete_btn">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>593</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="marque_lbl_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>43</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modele :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_btn">
+   <property name="geometry">
+    <rect>
+     <x>202</x>
+     <y>593</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="prix_de_location">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>540</y>
+     <width>129</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="marque_lbl">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>43</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Marque :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prixDeLocation_lbl">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>542</y>
+     <width>80</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Prix de location :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nombre_de_place">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>458</y>
+     <width>129</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="typeDeCarburant_lbl">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>419</y>
+     <width>96</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Type de carburant :</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="ImageView">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>60</y>
+     <width>431</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="type_de_carburant">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>417</y>
+     <width>129</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit_btn">
+   <property name="geometry">
+    <rect>
+     <x>117</x>
+     <y>593</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nombreDePlace_lbl">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>92</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre de places :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
